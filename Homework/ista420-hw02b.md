@@ -1,9 +1,19 @@
-1. **Book: FROM, WHERE, GROUP BY, HAVING, SELECT, ORDER BY** 
+## Ricardo Rosa
+
+### ISTA420 Homework 2b
+
+#### SQL
+
+
+
+
+
+
+1.*Book: FROM, WHERE, GROUP BY, HAVING, SELECT, ORDER BY** 
 
    Complete Order: FROM, ON, OUTER, WHERE, GROUP BY, CUBE | ROLLUP, HAVING, SELECT, DISTRINCT, ORDER BY, TOP
 
-2. The FROM clause is required in conjunction with select statements. It lists tables and views referenced columns. 
-The from clause can be used in conjuction to join types.   
+2. The FROM clause is required in conjunction with select statements. It lists tables and views referenced columns. The from clause can be used in conjuction to join types.   
 
 3. The WHERE clause filters records, it only filters/extract records that within a specific condition.
 

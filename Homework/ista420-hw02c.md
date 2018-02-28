@@ -1,4 +1,13 @@
-1. A data type is an attribute that specifies the type of data that the object can hold: integer data, character data, monetary data, date and time data, binary strings, and so on
+## Ricardo Rosa
+
+### ISTA420 Homework 2c
+
+#### SQL
+
+
+
+
+1.A data type is an attribute that specifies the type of data that the object can hold: integer data, character data, monetary data, date and time data, binary strings, and so on
 
 2.refers to a set of rules that determine how data is sorted and compared. 
   1.
