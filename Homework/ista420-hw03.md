@@ -10,6 +10,8 @@
 
 Produces a result set which is the number of rows in the first table multiplied by the number of rows in the second table if no WHERE clause is used along with CROSS JOIN
 
+to get more complete information.
+
 
 #### 2. Describe in your own words the output from an inner join.
 
@@ -18,6 +20,8 @@ It matches employee row with all other rows that have the same employee id as in
 
 
 #### 3. Describe in your own words the output from an outer join.
+
+
 
 
 
