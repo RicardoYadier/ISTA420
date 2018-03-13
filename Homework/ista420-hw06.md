@@ -24,17 +24,23 @@ A diagram representing mathematical or logical sets pictorially as circles or cl
 ##### 4. Draw a Venn Diagram of the UNION operator. What does it do?
 ![](https://i.imgur.com/9Dd9O2t.png)
 
+The shaded area represents the result of the operator. the nonshaded areas reflect the fact that the operator doesn't have to include all the attributes of the original relations.
+
 ##### 5. Draw a Venn Diagram of the UNION ALL operator. What does it do?
 ![](https://i.imgur.com/toWBenI.jpg)
 
 ##### 6. Draw a Venn Diagram of the INTERSECT operator. What does it do?
-
 ![](https://i.imgur.com/riazByw.png)
+
+Returns only the rows that are common to the results of the two input queries.
+
 ##### 7. If SQL Server supported the INTERSECT ALL operator, what would it do?
 Returns four occurrences in the output.
 
 ##### 8. Draw a Venn Diagram of the EXCEPT operator. What does it do?
 ![](https://i.imgur.com/vdPHbNB.jpg)
+
+Implements set differences. It operates on the results of two input queries and returns rows that appear in the first input but not the second.
 
 
 ##### 9. If SQL Server supported the EXCEPT ALL operator, what would it do?
