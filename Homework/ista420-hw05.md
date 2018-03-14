@@ -19,19 +19,20 @@ In the FROM clause of an outer query.
 You can use the alias from an outer table in an inner table because the inner table can contain a corregated subquery, but the outer cannot.
 
 ##### 4. What SQL key word defines a common table expression?
-CTEs
+WITH
 
 ##### 5. When using common table expressions, can a subsequent derived table use a table alias declared in a preceding table expression?
-
+YES
 
 ##### 6. Can a main query refer to a previously defined common table expression by multiple aliases?
-
+YES
 
 ##### 7. In SQL, is a view a durable object?
 Yes,they are stored as a permanent object in the database, making them reusable.
 
 ##### 8. In a view, what does WITH CHECK OPTION do? Why is this important?
 The purpose of CHECK OPTION is to prevent modifications through the view that conflict with the view's filter.
+it prevents people from changing a view, which would affect the underlying table.
 
 ##### 9. In a view, what does SCHEMABINDING do? Why is this important?
 It binds the schema of references objects and columns to the schema of the referencing object.
@@ -43,7 +44,7 @@ It binds the schema of references objects and columns to the schema of the refer
 It operates on 2 input tables.
 
 ##### 12. What are the two forms of the APPLY operator? Give an example of each.
-CROSS PLAY
+CROSS APPLY
 Implements one logical query processing phase - it applies the right table to each row from the left table and produces a result table with the unified results sets.
 
 

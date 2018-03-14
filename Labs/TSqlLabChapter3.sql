@@ -1,8 +1,9 @@
 .echo on
 .headers on 
 -- Name: chapter4labs.sql
+
 -- Author: Ricardo Rosa
---
+
 --Date: March 7, 2018
 
 -- 1
